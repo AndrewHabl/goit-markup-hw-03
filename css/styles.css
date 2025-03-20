@@ -2,11 +2,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     color: #434455;
-    
+    margin: 0px;
+
 }
 
  ul {
      list-style-type: none;
+     margin: 0;
+     padding: 0;
  }
 
  a {
@@ -22,9 +25,30 @@ button {
     cursor: pointer;
      }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p 
+{
+    margin: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 /*         header           */
 
 .header{
+    padding: 24px 0;
 }
 
 .logo { 
@@ -41,7 +65,7 @@ button {
 color: #2e2f42;
 }
 
-.navigation-item {
+.navigation-item { 
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -64,12 +88,20 @@ color: #2e2f42;
 /*         solutions           */
 .solutions {background-color: #2e2f42;}
 
+.container-solutions{
+    padding-top: 188px;
+    padding-bottom: 188px;
+    padding-left: 316px;
+    padding-right: 316px;
+}
+
 .solutions-title {
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        margin-bottom: 48px;
 }
 
 .solutions-button {
@@ -88,7 +120,10 @@ color: #2e2f42;
 /*         solutions           */
 
 /*         features           */
-.features {}
+.features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .features-list {}
 
@@ -122,9 +157,13 @@ color: #2e2f42;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        padding-top: 120px;
+        padding-bottom: 72px;
 }
 
-.team-list {}
+.team-list {
+    padding-bottom: 120px;
+}
 
 .team-member {background-color: #FFFFFF}
 
@@ -149,7 +188,9 @@ color: #2e2f42;
 
 /*         portfolio           */
 
-.portfolio {}
+.portfolio {
+
+}
 
 .portfolio-title {
     font-size: 36px;
@@ -158,9 +199,12 @@ color: #2e2f42;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .portfolio-list {
+    padding-bottom: 120px;
    
 }
 
@@ -188,6 +232,8 @@ color: #2e2f42;
 /*         footer           */
 .footer{ 
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-text {
