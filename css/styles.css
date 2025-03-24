@@ -131,11 +131,11 @@ color: #2e2f42;
 /*         header           */
 
 /*         solutions           */
-.solutions {background-color: #2e2f42;}
+.solutions {background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;}
 
 .container-solutions{
-    padding-top: 188px;
-    padding-bottom: 188px;
     padding-left: 316px;
     padding-right: 316px;
 }
@@ -147,6 +147,8 @@ color: #2e2f42;
         text-align: center;
         color: #fff;
         margin-bottom: 48px;
+        max-width: 496px;
+        margin: 0 auto;
 }
 
 .solutions-button {
