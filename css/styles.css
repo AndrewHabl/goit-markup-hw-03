@@ -219,6 +219,8 @@ color: #2e2f42;
 
 .team {
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -228,15 +230,23 @@ color: #2e2f42;
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
-        padding-top: 120px;
-        padding-bottom: 72px;
+        margin-bottom: 72px;
 }
 
 .team-list {
-    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
 }
 
-.team-member {background-color: #FFFFFF}
+.team-member {
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+}
+
+.div-team-subtitle{
+padding: 32px 0;
+}
 
 .team-image {}
 
@@ -247,6 +257,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .team-text {
